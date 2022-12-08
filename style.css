@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 
+    min-width: none;
+}
+.meio{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1260px;
+    padding: 0 2%;
+}
+
+.logo{ 
+    width:25%;
+}
+header{
+    margin-right: -900px;
+    max-width: 1900px;
+    min-width: 350;
+    background-color: rgb(136, 136, 136);
+    padding: 20px 0;
+}
+.menu{
+
+padding-top:90px;
+width:50%;
+text-align:left;
+}
+.menu a{
+    color: black;
+   text-decoration:none;
+   font-weight: bolder;
+   margin-left: 40px; 
+}
+.titulop{
+    text-decoration:underline;
+    text-align: center;
+    margin-top: 40px;
+    font-size:20px ;
+}
+.subtitulos{
+   font-size: 25px;
+   margin-top:100px ; 
+   color: black;
+   text-decoration:none;
+   font-weight: bolder;
+   margin-left: 40px; 
+}
+.container{
+    display: grid;
+    margin-left: 30px;
+    margin-top:70px ;
+    margin-right: 200px;
+    align-items: center;
+    
+}
+.container2{
+    display: grid;
+    margin-left: 30px;
+    margin-top:70px ;
+    margin-right: 200px;
+    align-items: center;
+}
+.container3{
+    display: grid;
+    margin-left: 30px;
+    margin-top:70px ;
+    margin-right: 200px;
+    align-items: center;
+}
+.rakuyo{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.origemrakuyo{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.skill{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.dicas{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.lady{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.historia{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+.sobre{
+    text-decoration:underline;
+    font-size:10px ;
+    color:black;
+}
+@media screen and (max-width:1000px){
+    header,.container,.titulop,hr,.container2,.container3{
+        width:300% ;
+    }
+}
+@media screen and (min-width:400px){
+    header,.container,.titulop,hr,.container2,.container3{
+        width: auto;
+    }
+}
+.hr{
+    color:black;
+}
+    
